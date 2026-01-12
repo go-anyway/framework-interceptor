@@ -9,8 +9,3 @@ require (
 	google.golang.org/grpc v1.78.0
 )
 
-replace (
-	github.com/go-anyway/framework-log => ../core/log
-	github.com/go-anyway/framework-metrics => ../metrics
-	github.com/go-anyway/framework-trace => ../trace
-)
